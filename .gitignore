@@ -1,0 +1,11 @@
+# Build
+bin/
+build/
+*.class
+
+# IDE
+.classpath
+.project
+.settings/
+.idea/
+*.iml
