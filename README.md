@@ -20,6 +20,17 @@ per-user login and two roles (administrator and user). Built as the final projec
   - View their job history.
 - Validation: negative or zero quantities are not allowed.
 
+## Screenshots
+
+**User menu** · **Admin — new user** · **Admin — all jobs**
+
+![User menu](docs/img/menu-usuario.png)
+![Admin new user](docs/img/admin-nuevo-usuario.png)
+![Admin jobs list](docs/img/admin-trabajos.png)
+
+**Class diagram (UML)**
+![Class diagram](docs/img/diagrama-clases.png)
+
 ## Design
 
 UI built with **JFrame/JPanel** and data held in **arrays** (no database, per the
@@ -79,6 +90,17 @@ como trabajo final de la materia **Lenguaje Orientado a Objetos**.
   - Eliminar un trabajo si aún no fue comenzado.
   - Ver su histórico de trabajos.
 - Validaciones: no se admiten cantidades negativas o cero.
+
+## Capturas
+
+**Menú de usuario** · **Admin — nuevo usuario** · **Admin — todos los trabajos**
+
+![Menú usuario](docs/img/menu-usuario.png)
+![Alta de usuario](docs/img/admin-nuevo-usuario.png)
+![Listado de trabajos](docs/img/admin-trabajos.png)
+
+**Diagrama de clases (UML)**
+![Diagrama de clases](docs/img/diagrama-clases.png)
 
 ## Diseño
 
