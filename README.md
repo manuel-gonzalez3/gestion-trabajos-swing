@@ -21,19 +21,25 @@ como trabajo final de la materia **Lenguaje Orientado a Objetos**.
 
 ## Diseño
 
-Interfaz construida con **JFrame** y datos manejados en **arrays** (sin base de datos,
-según consigna). Una ventana (`Ventana*.java`) por pantalla, modelos `Usuario` y
-`Trabajo`, y estado compartido en `Variables`.
+Interfaz construida con **JFrame/JPanel** y datos manejados en **arrays** (sin base de
+datos, según consigna). Las ventanas (`Ventana*.java`) actúan como contenedores por rol
+y los paneles (`Panel*.java`) resuelven cada funcionalidad concreta. Modelos `Usuario` y
+`Trabajo`, con estado compartido en `Variables`.
 
 ```
 src/TrabajoFinal/
   main.java                 # punto de entrada
-  VentanaLogin.java
-  VentanaAdmin.java VentanaUser.java
-  VentanaUsuarios.java VentanaNuevoTrabajo.java VentanaTrabajos.java
-  VentanaModificarUsuario.java
+  VentanaLogin.java         # ingreso con clave
+  VentanaAdmin.java         # contenedor del rol administrador
+  VentanaUser.java          # contenedor del rol usuario
+  PanelListaUsuarios.java   # gestión/listado de usuarios (admin)
+  PanelNuevoUsuario.java    # alta de usuario (admin)
+  PanelListaTrabajos.java   # listado y cambio de estado de trabajos
+  PanelNuevoTrabajo.java    # pedido de trabajo (usuario)
   Usuario.java Trabajo.java Variables.java
-docs/consigna.txt           # enunciado original
+docs/
+  consigna.txt              # enunciado original
+  Informe.pdf               # informe del trabajo (descripción + capturas)
 ```
 
 ## Compilar y ejecutar
